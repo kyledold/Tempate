@@ -8,18 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D1D6198C2551DEE2007967B6 /* TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6198B2551DEE2007967B6 /* TemplateApp.swift */; };
-		D1D6198E2551DEE2007967B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6198D2551DEE2007967B6 /* ContentView.swift */; };
+		D1D6198E2551DEE2007967B6 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6198D2551DEE2007967B6 /* TabBarView.swift */; };
 		D1D619902551DEE4007967B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D6198F2551DEE4007967B6 /* Assets.xcassets */; };
 		D1D619932551DEE4007967B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D619922551DEE4007967B6 /* Preview Assets.xcassets */; };
+		D1D6199F2551E575007967B6 /* FirstTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6199E2551E575007967B6 /* FirstTabView.swift */; };
+		D1D619A22551E595007967B6 /* SecondTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D619A12551E595007967B6 /* SecondTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D1D619882551DEE2007967B6 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D6198B2551DEE2007967B6 /* TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateApp.swift; sourceTree = "<group>"; };
-		D1D6198D2551DEE2007967B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D1D6198D2551DEE2007967B6 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		D1D6198F2551DEE4007967B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1D619922551DEE4007967B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D1D619942551DEE4007967B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1D6199E2551E575007967B6 /* FirstTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTabView.swift; sourceTree = "<group>"; };
+		D1D619A12551E595007967B6 /* SecondTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				D1D6198B2551DEE2007967B6 /* TemplateApp.swift */,
-				D1D6198D2551DEE2007967B6 /* ContentView.swift */,
+				D1D6198D2551DEE2007967B6 /* TabBarView.swift */,
+				D1D6199E2551E575007967B6 /* FirstTabView.swift */,
+				D1D619A12551E595007967B6 /* SecondTabView.swift */,
 				D1D6198F2551DEE4007967B6 /* Assets.xcassets */,
 				D1D619942551DEE4007967B6 /* Info.plist */,
 				D1D619912551DEE4007967B6 /* Preview Content */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1D6198E2551DEE2007967B6 /* ContentView.swift in Sources */,
+				D1D619A22551E595007967B6 /* SecondTabView.swift in Sources */,
+				D1D6198E2551DEE2007967B6 /* TabBarView.swift in Sources */,
+				D1D6199F2551E575007967B6 /* FirstTabView.swift in Sources */,
 				D1D6198C2551DEE2007967B6 /* TemplateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +288,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.Template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.company.Template;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
