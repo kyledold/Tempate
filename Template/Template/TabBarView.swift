@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TabBarView.swift
 //  Template
 //
 //  Created by Kyle Dold on 03/11/2020.
