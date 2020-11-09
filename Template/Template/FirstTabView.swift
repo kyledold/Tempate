@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct FirstTabView: View {
+    @State private var showResultView = false
+    
     var body: some View {
-        Text("First Tab")
+        NavigationView {
+            VStack(spacing: 30) {
+                NavigationLink(destination: Text("Results View"), isActive: $showResultView) {
+                    EmptyView()
+                }
+                Button("Tap to display results", action: {
+                    self.showResultView = true
+                })
+            }
+            .navigationTitle("First Tab Title")
+        }
     }
 }
 

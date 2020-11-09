@@ -9,7 +9,10 @@ import SwiftUI
 
 struct SecondTabView: View {
     var body: some View {
-        Text("Second Tab")
+        NavigationView {
+            Text("Second Tab")
+                .navigationTitle("Second Tab Title")
+        }
     }
 }
 

@@ -11,15 +11,15 @@ struct TabBarView: View {
     var body: some View {
         TabView {
             FirstTabView()
-                .tabItem {
-                    Image(systemName: "list.dash")
-                    Text("First Tab")
-                }
+            .tabItem {
+                Image(systemName: "list.dash")
+                Text("First Tab")
+            }
             SecondTabView()
-                .tabItem {
-                    Image(systemName: "tv.fill")
-                    Text("Second Tab")
-                }
+            .tabItem {
+                Image(systemName: "tv.fill")
+                Text("Second Tab")
+            }
         }
     }
 }
