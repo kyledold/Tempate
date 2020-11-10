@@ -8,17 +8,26 @@
 import SwiftUI
 
 struct FirstTabView: View {
-    @State private var showResultView = false
+    @State private var selection: String? = nil
     
     var body: some View {
         NavigationView {
             VStack(spacing: 30) {
-                NavigationLink(destination: Text("Results View"), isActive: $showResultView) {
+                NavigationLink(
+                    destination: Text("First results view"),
+                    tag: "First",
+                    selection: $selection) {
                     EmptyView()
                 }
-                Button("Tap to display results", action: {
-                    self.showResultView = true
-                })
+                NavigationLink(
+                    destination: Text("Second results view"),
+                    tag: "Second",
+                    selection: $selection) {
+                    EmptyView()
+                }
+                
+                Button("Tap to first page") { selection = "First" }
+                Button("Tap to second page") { selection = "Second" }
             }
             .navigationTitle("First Tab Title")
         }

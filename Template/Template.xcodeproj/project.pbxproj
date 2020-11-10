@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1313A9B255B2567008CCC44 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1313A9A255B2567008CCC44 /* DetailsView.swift */; };
 		D1D6198C2551DEE2007967B6 /* TemplateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6198B2551DEE2007967B6 /* TemplateApp.swift */; };
 		D1D6198E2551DEE2007967B6 /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1D6198D2551DEE2007967B6 /* TabBarView.swift */; };
 		D1D619902551DEE4007967B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1D6198F2551DEE4007967B6 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1313A9A255B2567008CCC44 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		D1D619882551DEE2007967B6 /* Template.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Template.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1D6198B2551DEE2007967B6 /* TemplateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateApp.swift; sourceTree = "<group>"; };
 		D1D6198D2551DEE2007967B6 /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				D1D6198D2551DEE2007967B6 /* TabBarView.swift */,
 				D1D6199E2551E575007967B6 /* FirstTabView.swift */,
 				D1D619A12551E595007967B6 /* SecondTabView.swift */,
+				D1313A9A255B2567008CCC44 /* DetailsView.swift */,
 				D1D6198F2551DEE4007967B6 /* Assets.xcassets */,
 				D1D619942551DEE4007967B6 /* Info.plist */,
 				D1D619912551DEE4007967B6 /* Preview Content */,
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1D619A22551E595007967B6 /* SecondTabView.swift in Sources */,
+				D1313A9B255B2567008CCC44 /* DetailsView.swift in Sources */,
 				D1D6198E2551DEE2007967B6 /* TabBarView.swift in Sources */,
 				D1D6199F2551E575007967B6 /* FirstTabView.swift in Sources */,
 				D1D6198C2551DEE2007967B6 /* TemplateApp.swift in Sources */,

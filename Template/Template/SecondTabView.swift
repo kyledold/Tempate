@@ -8,11 +8,21 @@
 import SwiftUI
 
 struct SecondTabView: View {
+    
+    @ObservedObject var user = User()
+    
     var body: some View {
         NavigationView {
-            Text("Second Tab")
-                .navigationTitle("Second Tab Title")
+            VStack(spacing: 30) {
+                Text("User age: \(user.age)")
+                
+                NavigationLink(destination: DetailsView()) {
+                    Text("Go to edit view")
+                }
+            }
+            .navigationTitle("Second Tab Title")
         }
+        .environmentObject(user)
     }
 }
 
