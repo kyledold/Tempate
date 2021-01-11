@@ -25,9 +25,3 @@ struct SecondTabView: View {
         .environmentObject(user)
     }
 }
-
-struct SecondTabView_Previews: PreviewProvider {
-    static var previews: some View {
-        SecondTabView()
-    }
-}
