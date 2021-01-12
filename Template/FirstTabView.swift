@@ -26,8 +26,8 @@ struct FirstTabView: View {
                     EmptyView()
                 }
                 
-                Button("Tap to first page") { selection = "First" }
-                Button("Tap to second page") { selection = "Second" }
+                Button("Tap to first page", action: { selection = "First" }).buttonStyle(GradientButtonStyle())
+                Button("Tap to second page", action: { selection = "Second" }).buttonStyle(GradientButtonStyle())
             }
             .navigationTitle("First Tab Title")
         }

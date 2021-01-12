@@ -20,7 +20,7 @@ struct DetailsView: View {
             Text("Age: \(user.age)")
             Button("Incease age") {
                 user.age += 1
-            }
+            }.buttonStyle(GradientButtonStyle())
         }
     }
 }
