@@ -20,6 +20,11 @@ struct TabBarView: View {
                 Image(systemName: "tv.fill")
                 Text("Second Tab")
             }
+            ThirdTabView()
+            .tabItem {
+                Image(systemName: "tv.fill")
+                Text("Third Tab")
+            }
         }
     }
 }
